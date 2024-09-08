@@ -1,8 +1,10 @@
 import React from 'react';
+import Home from './Home';
 
 function App() {
-  const value = 'Damian';
-  return <div>Hello {value}</div>;
+  return (
+    <Home />
+  );
 }
 
 export default App;
